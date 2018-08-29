@@ -29,7 +29,7 @@
 
         <!-- mapper.xml位置-->
         <sqlMapGenerator targetPackage="mapper"
-                         targetProject="summer-dao/src/main/resource">
+                         targetProject="summer-dao/src/main/resources">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
 
@@ -46,9 +46,7 @@
                enableUpdateByExample="false"
                enableDeleteByExample="false"
                enableSelectByExample="false"
-               selectByExampleQueryId="false"
-               enableUpdateByPrimaryKey="false"
-               enableInsert="false">
+               selectByExampleQueryId="false">
         </table>
 
     </context>
